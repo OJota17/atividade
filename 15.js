@@ -3,9 +3,9 @@
 
 var idade = 59
 var credencialPNE = true
-var caminhao = false
+var veiculo = "Carro"
 
-if ((idade >= 60 && credencialPNE == true) && caminhao == false){
+if ((idade >= 60 || credencialPNE == true) && caminhao != "Caminhão"){
     console.log("Você possui direito de estacionar")
 } else {
     console.log ("Você NÃO possui direito de estacionar")

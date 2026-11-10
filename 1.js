@@ -4,8 +4,13 @@
 var user = "admin"
 var pass = "1234"
 
+function fnValidarAcesso() {
+    var user = document.getElementById("user").value
+    var pass = document.getElementById("pass").value
+
 if (user == "admin" && pass == "1234"){
-    console.log("Acesso permitido =)")
+    alert("Acesso permitido =)")
 } else {
-    console.log("Acesso negado =(")
+    alert("Acesso negado =(")
+}
 }

@@ -3,8 +3,12 @@
 
 var idade = 60
 
+
+function fnValidarAcesso() {
+    var user = document.getElementById("user").value
 if (idade < 6 || idade >= 60){
     console.log("Você tem entrada franca")
 } else {
     console.log("Você NÃO tem entrada franca")
+}
 }
